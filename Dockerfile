@@ -8,6 +8,4 @@ RUN pip install flask requests
 
 EXPOSE 5000
 
-ENTRYPOINT "python"
-
-CMD ["app.py"]
+ENTRYPOINT "python app.py"
